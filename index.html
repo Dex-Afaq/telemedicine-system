@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Telemedicine System</title>
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-dark navsmall">
+                <h1 class="text-center">
+                    A Wireless Emergency Telemedicine System for Patients Monitoring and Diagnosis</h1>
+            </nav>
+        </header>
+        <div id="chartContainer" class="graph">
+            <iframe
+                src="https://thingspeak.com/channels/1099606/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Temprature&type=line&xaxis=Time&yaxis=Celcuis&yaxismax=40&yaxismin=0"></iframe>
+            <iframe
+                src="https://thingspeak.com/channels/1099606/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Calories&type=line&xaxis=Time&yaxismax=10&yaxismin=0"></iframe>
+            <iframe
+                src="https://thingspeak.com/channels/1099606/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Steps&type=line&xaxis=Time"></iframe>
+            <iframe
+                src="https://thingspeak.com/channels/1099606/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=HeartRate&type=line&xaxis=Time&yaxis=BPM"></iframe>
+            <iframe
+                src="https://thingspeak.com/channels/1099606/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=ECG&type=line"></iframe>
+        </div>
+        <div class="row end">
+            <h1>MADE BY:</h1>
+            <h2>MUZAMMIL NISAR
+                <h3>FA16-EEE-015</h3>
+            </h2>
+            <h2>AFAQ RASHID
+                <h3>FA16-EEE-030</h3>
+            </h2>
+            <h2>ABDUL BASIT
+                <h3>FA16-EEE-029</h3>
+            </h2>
+            <br><br><br>
+            <h1>Supervised by:</h1>
+            <h2>
+                <strong>DR.</strong>Bilal Qureshi</h2>
+        </div>
+    </footer>
+    <img src="logo.png" class="img-fluid logobottom fixed-bottom">
+</body>
+
+</html>
