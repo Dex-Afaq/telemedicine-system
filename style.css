@@ -17,7 +17,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
 
 }
 nav h1 {
@@ -32,7 +31,6 @@ ul li {
     display: flex;
     justify-content: center;
     align-content: center;
-
 }
 
 iframe {
@@ -64,14 +62,13 @@ iframe {
     .logobottom {
         display: none;
     }
-    iframe{
+    iframe {
         height: 270px;
     }
-   
+
 }
-@media (max-width: 375px)
-{
-    .graph{
+@media (max-width: 375px) {
+    .graph {
         width: 80%;
     }
 }
